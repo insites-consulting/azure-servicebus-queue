@@ -26,8 +26,8 @@ abstract class TestCase extends BaseTestCase
         $app['config']->set('queue.connections.azureservicebus', [
             'driver'       => 'azureservicebus',
             'endpoint'     => $_ENV['AZURESB_ENDPOINT'],
-            'SharedAccessKeyName' => $_ENV['AZURESB_SHARED_ACCESS_KEY_NAME'],
-            'SharedAccessKey' => $_ENV['AZURESB_SHARED_ACCESS_KEY'],
+            'shared_access_key_name' => $_ENV['AZURESB_SHARED_ACCESS_KEY_NAME'],
+            'shared_access_key' => $_ENV['AZURESB_SHARED_ACCESS_KEY'],
             'queue'        => $_ENV['AZURESB_QUEUE_NAME'],
         ]);
     }
