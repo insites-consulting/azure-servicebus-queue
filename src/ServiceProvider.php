@@ -1,6 +1,6 @@
 <?php
 
-namespace Mrdth\AzureServiceBusQueue;
+namespace InsitesConsulting\AzureServiceBusQueue;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

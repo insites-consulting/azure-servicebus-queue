@@ -1,17 +1,17 @@
 {
-    "name": "mrdth/azure-service-bus-queue",
+    "name": "insites-consulting/azure-service-bus-queue",
     "description": "",
     "keywords": [
-        "mrdth",
+        "insites-consulting",
         "azure-service-bus-queue"
     ],
-    "homepage": "https://github.com/mrdth/azure-service-bus-queue",
-    "license": "MIT",
+    "homepage": "https://github.com/insites-consulting/azure-service-bus-queue",
+    "license": "proprietary",
     "type": "library",
     "authors": [
         {
-            "name": "mrdth",
-            "email": "mrdth@zeventien.org",
+            "name": "Danny Hart",
+            "email": "danny.hart@insitesconsulting.com",
             "role": "Developer"
         }
     ],
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mrdth\\AzureServiceBusQueue\\": "src"
+            "InsitesConsulting\\AzureServiceBusQueue\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mrdth\\AzureServiceBusQueue\\Tests\\": "tests"
+            "InsitesConsulting\\AzureServiceBusQueue\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,7 +47,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mrdth\\AzureServiceBusQueue\\ServiceProvider"
+                "InsitesConsulting\\AzureServiceBusQueue\\ServiceProvider"
             ]
         }
     }

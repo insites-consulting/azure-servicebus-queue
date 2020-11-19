@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Mrdth\AzureServiceBusQueue\Tests;
+namespace InsitesConsulting\AzureServiceBusQueue\Tests;
 
 use Dotenv\Dotenv;
 use Illuminate\Support\Facades\Queue;
-use Mrdth\AzureServiceBusQueue\AzureQueue;
+use InsitesConsulting\AzureServiceBusQueue\AzureQueue;
+use InsitesConsulting\AzureServiceBusQueue\ServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Mrdth\AzureServiceBusQueue\ServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {

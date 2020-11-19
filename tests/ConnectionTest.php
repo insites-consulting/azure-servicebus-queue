@@ -1,8 +1,8 @@
 <?php
 
-namespace Mrdth\AzureServiceBusQueue\Tests;
+namespace InsitesConsulting\AzureServiceBusQueue\Tests;
 
-use Mrdth\AzureServiceBusQueue\AzureQueue;
+use InsitesConsulting\AzureServiceBusQueue\AzureQueue;
 
 class ConnectionTest extends TestCase
 {

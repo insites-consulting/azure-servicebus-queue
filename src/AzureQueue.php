@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mrdth\AzureServiceBusQueue;
+namespace InsitesConsulting\AzureServiceBusQueue;
 
 use Illuminate\Contracts\Queue\Queue as QueueContract;
 use Illuminate\Queue\Queue;

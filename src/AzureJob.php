@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mrdth\AzureServiceBusQueue;
+namespace InsitesConsulting\AzureServiceBusQueue;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Queue\Job as JobContract;

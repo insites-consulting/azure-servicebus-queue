@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mrdth\AzureServiceBusQueue;
+namespace InsitesConsulting\AzureServiceBusQueue;
 
 
 use Illuminate\Queue\Connectors\ConnectorInterface;
