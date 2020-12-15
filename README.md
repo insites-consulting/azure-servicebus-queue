@@ -5,9 +5,9 @@ The library provides support for Service Bus queues. The package should be auto 
 
 #### Installation
 
-Require this package in your `composer.json`:
+Require this package with composer:
 
-	"mrdth/azure-service-bus-queue": "<<version>>"
+	composer require insites-consulting/azure-service-bus-queue
 
 Run composer update!
 
